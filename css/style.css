@@ -1,0 +1,23 @@
+[class*="col"] {
+    min-height: 40px;
+    background-color: blue;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    vertical-align: center;
+    line-height: 40px;
+}
+
+section {
+    margin: 20px 0px;
+}
+
+.row.nested {
+    margin: 10px 10px;
+
+}
+
+.row.nested * {
+    background-color: green;
+    
+}
